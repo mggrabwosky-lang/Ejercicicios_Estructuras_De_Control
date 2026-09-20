@@ -7,3 +7,10 @@ b. Modifica el programa anterior para que el trabajador introduzca también su
 nombre y dirección que mostraremos junto con su salario. 
 c. Modifica el programa anterior para que la salida se muestre en nuestro documento 
 html y también en la consola. */
+let hour = parseInt(prompt("Introduce un numero"));
+let price =parseInt(prompt("Introduce otro numero"));
+
+const salary=(hour,price)=>{
+    let result=hour*price;
+    return result;
+}
